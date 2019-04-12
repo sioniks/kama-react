@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import MyPosts from "./MyPosts";
 
 const Profile = () => {
   return (
@@ -17,6 +18,7 @@ const Profile = () => {
           alt=""
         />
       </div>
+      <MyPosts />
     </div>
   );
 };
