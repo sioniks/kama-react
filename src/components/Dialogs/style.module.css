@@ -1,4 +1,22 @@
-.dialogs__wrapper {
+.dialogs {
   font-size: 20px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialog {
+  padding: 10px;
+}
+.dialog a {
+  text-decoration: none;
+}
+.dialog a.active {
   color: red;
+}
+
+.messages {
+  padding: 10px;
+}
+.message {
 }
