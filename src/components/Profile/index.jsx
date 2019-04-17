@@ -1,14 +1,14 @@
 import React from "react";
-import "./style.css";
+import s from "./style.module.css";
 import ProfileInfo from "./ProfileInfo";
 import MyPosts from "./MyPosts";
 
 const Profile = () => {
   return (
-    <div className="content">
+    <div className={s.content}>
       <div className="">
         <img
-          className="top-image"
+          className={s["top-image"]}
           src="http://wowslider.com/sliders/demo-81/data1/images/redkite50498.jpg"
           alt=""
         />

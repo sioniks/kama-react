@@ -5,10 +5,14 @@ import Post from "./Post";
 const MyPosts = () => {
   return (
     <div className={s.content}>
-      <p>My posts</p>
+      <h3>My posts</h3>
       <div className="">
-        <textarea name="" id="" cols="30" rows="10" />
-        <button>Add posts</button>
+        <div>
+          <textarea name="" id="" />
+        </div>
+        <div>
+          <button>Add posts</button>
+        </div>
       </div>
       <div className={s.posts}>
         <Post massage="Azazazazaazaa" />
