@@ -8,7 +8,7 @@ const Post = props => {
         src="http://wowslider.com/sliders/demo-81/data1/images/redkite50498.jpg"
         alt=""
       />
-      <h3>{props.massage}</h3>
+      <h3>{props.message}</h3>
       <div className="">
         <span>like</span>
       </div>
