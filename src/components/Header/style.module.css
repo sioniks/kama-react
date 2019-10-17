@@ -1,8 +1,13 @@
 .header {
   grid-area: h;
-  background: rgb(13, 194, 43);
+  background: #96ca00;
+  position: relative;
 }
 
 .header img {
-  height: 60px;
+  height: 45px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translate(0, -50%);
 }

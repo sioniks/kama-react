@@ -17,6 +17,17 @@
 
 .messages {
   padding: 10px;
+  position: relative;
 }
-.message {
+
+.messages::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 95%;
+  background: #5c5;
 }

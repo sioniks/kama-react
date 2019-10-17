@@ -5,7 +5,7 @@ const Post = props => {
   return (
     <div className={s.post__item}>
       <img
-        src="http://wowslider.com/sliders/demo-81/data1/images/redkite50498.jpg"
+        src={`https://picsum.photos/200/200?random=${props}`}
         alt=""
       />
       <h3>{props.message}</h3>

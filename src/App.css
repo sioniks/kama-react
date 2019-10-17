@@ -12,21 +12,16 @@
 
 .header {
   grid-area: h;
-  background: rgb(13, 194, 43);
-}
-
-.header img {
-  height: 60px;
 }
 
 .nav {
   grid-area: n;
-  background: rgb(6, 126, 6);
+  background: #96ca00;
 }
 
 .app-wrapper-content {
   grid-area: c;
-  background: rgb(21, 118, 230);
+  background: #b3c8cd;
 }
 
 .content .top-image {

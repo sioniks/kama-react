@@ -4,10 +4,7 @@ import s from "./style.module.css";
 const Header = () => {
   return (
     <header className={s.header}>
-      <img
-        src="https://www.freelogodesign.org/Content/img/logo-ex-7.png"
-        alt=""
-      />
+      <img src="../../images/logo2.png" alt="" />
     </header>
   );
 };

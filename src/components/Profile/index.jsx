@@ -9,12 +9,12 @@ const Profile = props => {
       <div className="">
         <img
           className={s["top-image"]}
-          src="http://wowslider.com/sliders/demo-81/data1/images/redkite50498.jpg"
+          src="https://picsum.photos/980/370"
           alt=""
         />
       </div>
       <ProfileInfo />
-      <MyPosts postsData={props.postsData} />
+      <MyPosts postsData={props.state.postsData} />
     </div>
   );
 };

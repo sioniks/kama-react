@@ -1,5 +1,43 @@
-.messages {
-  padding: 10px;
+.message_wrap {
+  margin-bottom: 10px;
+  position: relative;
 }
+.message_wrap::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: #5c5;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.message_wrap:nth-child(odd) {
+  text-align: right;
+}
+
+.message_wrap:nth-child(odd)::before {
+  content: none;
+}
+
+.message_wrap:nth-child(odd)::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: #5c5;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
 .message {
+  background: #fff;
+  color: #000;
+  padding: 5px 15px;
+  border-radius: 20px;
+  width: auto;
+  display: inline-block;
+  margin: 0;
 }
