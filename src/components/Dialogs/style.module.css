@@ -31,3 +31,28 @@
   height: 95%;
   background: #5c5;
 }
+
+.new_message {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  display: grid;
+  grid-gap: 5px;
+  width: 100%;
+  grid-template-columns: 10fr 2fr;
+  grid-template-rows: 100px 50px;
+}
+
+.input_message {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  resize: none;
+  margin: 0 10px;
+}
+
+.button_message {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  height: 30px;
+  margin: 0 10px;
+}
