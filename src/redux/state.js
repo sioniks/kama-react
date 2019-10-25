@@ -28,7 +28,8 @@ let state = {
         name: "Der himmel und der bandershtadt",
         likesCount: 223
       }
-    ]
+    ],
+    newPostText: 'react-starter'
   },
   messagesPage: {
     dialogsData: [
@@ -78,13 +79,21 @@ let state = {
   }
 };
 
-export let addPost = (postMessage) => {
+export let addPost = () => {
   let newPost = {
     id: 5,
-    name: postMessage,
+    name: state.profilePage.newPostText,
     likesCount: 0
   };
   state.profilePage.postsData.push(newPost);
+  state.profilePage.newPostText = '';
+  rerenderEntireTree(state);
+
+}
+
+export let updateNewPostText = (newText) => {
+
+  state.profilePage.newPostText = newText;
   rerenderEntireTree(state);
 
 }
